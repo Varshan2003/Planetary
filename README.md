@@ -33,48 +33,13 @@ To get started with Planetary API, follow these steps:
     ```
 
 2. **Dependencies**
-    - Navigate to the project directory and install dependencies using npm or yarn.
-    ```
-    cd planetary-api
-    npm install
-    ```
+    - Navigate to the project directory and install dependencies using pip
+
 
 3. **Database Setup**
     - Set up your preferred database (e.g., MongoDB, PostgreSQL).
-    - Update the database configuration in `config/database.js`.
+    - Update the database configuration in `config/planets.db`.
 
-4. **Environment Variables**
-    - Create a `.env` file in the root directory and define the required environment variables.
-    ```
-    PORT=3000
-    DATABASE_URI=mongodb://localhost:27017/planetary
-    JWT_SECRET=your_jwt_secret_key
-    ```
 
-5. **Start the Server**
-    - Run the server using npm or yarn.
-    ```
-    npm start
-    ```
-
-6. **Explore Endpoints**
-    - Use tools like Postman or cURL to interact with the API endpoints.
-    - Refer to the API documentation for endpoint details and usage.
-
-## API Documentation
-
-For detailed information on available endpoints and their usage, refer to the API documentation included in the project. 📚
-
-## Contributions
-
-Contributions to Planetary API are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve the project. 🚀
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 📝
-
-## Contact
-
-For any inquiries or support, please contact us at planetary@example.com. 📧
 
 Happy exploring the cosmos with Planetary! 🚀🌌
